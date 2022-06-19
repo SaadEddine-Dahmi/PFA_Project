@@ -24,6 +24,10 @@
 a{
     color: white !important;
 }
+.donate{
+    display: flex;
+    gap: 40px;
+}
 li button{
     color: white;
     border: none;
@@ -35,8 +39,6 @@ li button{
 
 .hero-text{
     margin-top: 30px;
-    /* margin-right: 70px; */
-
 }
 .hero-text h1{
     font-size: 50px;
@@ -82,6 +84,13 @@ li button{
     width: 100%;
     align-items: center;
 }
+.problem{
+    display: flex;
+}
+.easy{
+    width: 700px;
+    margin-right: 80px;
+}
 .who {
     margin-left: 71px;
     margin-right: 71px;
@@ -94,13 +103,16 @@ li button{
 .exc{
     width: 302px;
     height: 294px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .sec3 h2{
     color: #DF0000;
     font-size: 35px;
     height: 50px;
     margin-top: 35px;
+}
+.connect{
+    display: flex;
 }
 .many{
     font-size: 20px;
@@ -113,6 +125,7 @@ li button{
     width: 302px;
     height: 294px;
     margin-left: 30px;
+    margin-right: 150px;
 }
 .process{
     margin-left: 90px;
@@ -121,16 +134,21 @@ li button{
 }
 .num{
     color: rgba(3, 3, 3, 0.2);
-    font-size: 128px;
-    height: 190px;
+    font-size: 110px;
+    height: 150px;
 }
-h3{
-    height: 90px;
-    font-size: 36px;
-    color: rgba(0, 0, 0, 0.7);
+.works{
+    display: flex;
+    margin-right: 30px;
+    gap: 120px;
+}
+.acc{
+    width: 250px;
 }
 .rec{
     height: 90px;
+    font-size: 29px;
+    color: rgba(0, 0, 0, 0.7);
 }
 .col p{
     font-size: 20px;
@@ -141,23 +159,43 @@ h3{
     height: 461px;
     background-color: #DF0000;
 }
-.test img{
-    margin-left: 650px;
-    margin-top: 100px;
-    width: 80px;
-    border-radius: 50%;
-}
-.nom{
-    margin-top: 15px;
-    height: 30px;
-    margin-left: 585px;
-}
 h5{
     height: 30px;
-    margin-left: 665px;
+    margin-left: 70px;
+}
+.test img{
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px; left: 640px;
+}
+.nom{
+    height: 30px;
 }
 .test p{
-    margin-top: 60px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.component{
+    position: relative;
+    top: 50px; left: 580px;
+    margin-top: 15px;
+}
+.profile{
+    margin-top: 30px;
+    height: 220px;
+}
+.app{
+    display: flex;
+    overflow-y: hidden;
+}
+.future{
+    position: relative;
+    right: 100px; top: 200px;
+    width: 600px;
+}
+.future h2{
+    width: 600px;
 }
 .sec7{
     height: 715px;
@@ -181,9 +219,63 @@ h5{
     font-size: 20px;
 }
 .partners{
-    margin-top: 40px;
-    margin-left: 60px;
+    margin: 85px;
     display: flex;
     justify-content: space-between;
 }
-
+@media (max-width: 768px) {
+    .hero-text h1{
+        width: 730px;
+        font-size: 45px;
+    }
+    .hero-text p{
+        width: 500px;
+    }
+    
+    .problem{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rec{
+        font-size: 25px;
+    }
+    .easy{
+        width: 630px;
+    }
+    .connect{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .goal{
+        width: 630px;
+    }
+    .trgt{
+        position: relative;
+        left: 120px;
+    }
+    .profile{
+        position: relative;
+        right: 270px;
+    }
+    .nom{
+        width: auto;
+    }
+    .app{
+        flex-direction: column;
+    }
+    .app img {
+        width: 850px;
+        padding: 20px;
+        margin-left: 100px;
+    }
+    .future{
+        position: relative;
+        right: 0; top: 0;
+        left: 120px; bottom: 20px;
+        overflow-y: hidden;
+        
+    }
+    .future p{
+        width: 500px;
+    }
+}
