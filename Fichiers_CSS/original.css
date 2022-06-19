@@ -70,3 +70,120 @@ li button{
     background-color: rgba(0, 0, 0, 10%) !important;
     height: 45px !important;
 }
+.h1{
+    font-size: 50px;
+    height: 63px;
+    color: #DF0000;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sec2{
+    width: 100%;
+    align-items: center;
+}
+.who {
+    margin-left: 71px;
+    margin-right: 71px;
+    font-size: 20px;
+    text-align: center;
+}
+.sec3{
+    margin-left: 60px;
+}
+.exc{
+    width: 302px;
+    height: 294px;
+    margin-left: 100px;
+}
+.sec3 h2{
+    color: #DF0000;
+    font-size: 35px;
+    height: 50px;
+    margin-top: 35px;
+}
+.many{
+    font-size: 20px;
+}
+.goal{
+    font-size: 20px;
+    width: 680px;
+}
+.trgt{
+    width: 302px;
+    height: 294px;
+    margin-left: 30px;
+}
+.process{
+    margin-left: 90px;
+    margin-right: 67px;
+    padding-left: 80px;
+}
+.num{
+    color: rgba(3, 3, 3, 0.2);
+    font-size: 128px;
+    height: 190px;
+}
+h3{
+    height: 90px;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.rec{
+    height: 90px;
+}
+.col p{
+    font-size: 20px;
+}
+.test{
+    color: #ffffff;
+    width: 100%;
+    height: 461px;
+    background-color: #DF0000;
+}
+.test img{
+    margin-left: 650px;
+    margin-top: 100px;
+    width: 80px;
+    border-radius: 50%;
+}
+.nom{
+    margin-top: 15px;
+    height: 30px;
+    margin-left: 585px;
+}
+h5{
+    height: 30px;
+    margin-left: 665px;
+}
+.test p{
+    margin-top: 60px;
+}
+.sec7{
+    height: 715px;
+    background-color: #DF0000;
+    color: #ffffff; 
+}
+.sec7 h2{
+    font-size: 60px;
+    height: 160px;
+}
+.sec7 p{
+    font-size: 18px;
+}
+.sec7 .col-4{
+    margin-top: 180px;
+    padding-right: 56px;
+}
+.sec7 h6{
+    margin-top: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+.partners{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
