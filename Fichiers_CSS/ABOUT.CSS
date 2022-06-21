@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     list-style: none !important;
+    overflow-x: hidden;
     
 }
 
@@ -78,10 +79,17 @@ li button{
    height: 329px;
    background-color: #DF0000;
 }
+.our{
+    height: 100px;
+}
 .fs{
     font-size: 70px;
+    height: 90px;
     text-align: center;
 
+}
+h4{
+    height: 50px;
 }
 .gap{
     text-align: center;
@@ -99,6 +107,7 @@ li button{
 .logof{
     width: 128.77px;
     height: 100.5px;
+    margin-left: 0px;
 }
 .bg{
     background-color: #DF0000;
@@ -108,8 +117,7 @@ li button{
     color: white;
 }
 .w{
-    
-    width: 400px;
+    width: 250px;
 }
 @media (max-width: 768px) {
     .hero-logo{
@@ -132,6 +140,18 @@ li button{
     .gap{
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .logof{
+        width: 90px;
+        margin-left: 20px;
+    }
+    footer{
+        font-size: 14px !important;
+    }
+    footer p{
+        width: 110px !important;
+        font-size: 13px !important;
+        padding: 0 !important;
     }
 }
 @media (max-width: 425px){
