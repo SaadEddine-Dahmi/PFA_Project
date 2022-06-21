@@ -1,9 +1,14 @@
 *{
     list-style: none;
-    overflow-x: hidden;
     text-decoration: none !important;
     position: relative;
+    overflow-x: hidden;
     
+}
+.border{
+    border-bottom: solid 10px black;
+    width: 60%;
+    margin-left: 300px;
 }
 .Hero{
     color: white;
@@ -17,9 +22,15 @@
 .nav{
     width: 100%;
     justify-content: space-between !important;
+    font-weight: 600;
 }
-.logo{
+.topnav .icon {
+    display: none;
+}
+
+.hero-logo{
     margin-left: 30px;
+    width: 191px;
 }
 a{
     color: white !important;
@@ -187,18 +198,46 @@ h5{
 }
 .app{
     display: flex;
-    overflow-y: hidden;
 }
 .future{
     position: relative;
     right: 100px; top: 200px;
     width: 600px;
+    height: 400px;
 }
 .future h2{
     width: 600px;
 }
+.accordion {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-bottom: solid 1px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: rgb(255, 255, 255); 
+  } */
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .faqs{
+    width: 700px;
+    margin: auto ;
+
+  }
 .sec7{
-    height: 715px;
+    height: auto;
     background-color: #DF0000;
     color: #ffffff; 
 }
@@ -223,7 +262,31 @@ h5{
     display: flex;
     justify-content: space-between;
 }
+.bg{
+    background-color: #DF0000;
+}
+.cl{
+    color: white;
+}
+.w{
+    
+    width: 400px;
+}
+.footer-logo{
+    width: 130px;
+}
 @media (max-width: 768px) {
+    .hero-logo{
+        width: 130px;
+        margin-left: 8px;
+        margin-bottom: 13px;
+        justify-content: none;
+    }
+    .nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: none;
+    }
     .hero-text h1{
         width: 730px;
         font-size: 45px;
@@ -231,10 +294,12 @@ h5{
     .hero-text p{
         width: 500px;
     }
-    
+    .border{
+        margin-left: 150px;
+    }
     .problem{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .rec{
         font-size: 25px;
@@ -273,9 +338,60 @@ h5{
         right: 0; top: 0;
         left: 120px; bottom: 20px;
         overflow-y: hidden;
-        
     }
     .future p{
         width: 500px;
+    }
+    .partners{
+        width: 80%;
+        justify-content: space-between;
+
+    }
+    .si7a{
+        width: 70px;
+    }
+    .tadamon{
+        width: 200px;
+    }
+    .footer-logo{
+        width: 100px;
+    }
+    .footer-text{
+        width: 110px;
+        padding: 0;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 425px){
+    .icon{
+        margin-right: 10px;
+        
+    }
+    .fa{
+        display: block;
+    }
+    .login{
+        display: none;
+    }
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
     }
 }

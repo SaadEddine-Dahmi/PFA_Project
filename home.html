@@ -8,28 +8,32 @@
         <link rel="stylesheet" href="/Fichiers_CSS/bootstrap-style.css">
         <link rel="stylesheet" href="/Fichiers_CSS/bootstrap.min.css">
         <link rel="stylesheet" href="/Fichiers_CSS/original.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Donors</title>
     </head>
     <body>
         <div class="Hero">
             <header>
-                <nav class="nav mt-4 p-1  align-items-center">
-                    <img class="logo" src="#" alt="#">
-                    <div>
+                <nav class="nav mt-4 p-1 align-items-center">
+                    <img class="hero-logo" src="/main page images/logo/Group 77logo.svg" alt="#">
+                    <div class="topnav" id="myTopnav">
                         <ul >
                             <li>
                                 <a class="m-3" href="">Home</a>
                                 <a class="m-3" href="">Donors</a>
-                                <a class="m-3" href="">About Us</a>
-                                <a class="m-3" href="">Contact US</a>
-                        </li>
+                                <a class="m-3" href="/Pages_HTML/about.html">About Us</a>
+                                <a class="m-3" href="">Contact Us</a>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i> </a>
+                            </li>
                         </ul>
                     </div>
-                    <div>
+                    
+                    <div class="login">
                         <ul>
                             <li >
                                 <a class="m-3" href="">Log in</a>
-                                <a class="m-3" href=""><button> Sign UP </button></a>
+                                <a class="m-3" href=""><button> Sign Up </button></a>
                             </li>
                         </ul>
                     </div>
@@ -53,6 +57,7 @@
                     </div>
             </section>
     </div>
+    <div class="border"></div>
     <section class="sec2">
         <h1 class="h1"> Who We Are?</h1>
         <div class="who ">
@@ -65,6 +70,7 @@
             <p class="pb-4">Voluntary and unpaid regular blood donation is an act of solidarity and is required all over the world.</p>
         </div>
         </section>
+        <div class="border"></div>
         <section class="sec3">
             <div class="problem">
                 <div class="easy">
@@ -93,6 +99,7 @@
                 </div>
             </div>
         </section>
+        <div class="border"></div>
         <section class="sec4">
             <h1 class="h1">
                 HOW OUR PROCESS WORK
@@ -121,6 +128,7 @@
                 </div>
             </div>
         </section>
+        <div class="border"></div>
         <section class="sec5">
             <h1 class="h1">Testimonials</h1>
             <div  class="">
@@ -141,7 +149,26 @@
             </div>
         </section>
         <section class="sec6">
-            <h1 class="h1"> FAQs</h1>
+            <div class="border"></div>
+            <div class="faqs">
+                <h1 class="h1"> FAQs</h1>
+                <h2 class="accordion">Q: Why should people donate blood?</h2>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <h2 class="accordion">Q:How much blood will be taken ? Will i have enough ?</h2>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <h2 class="accordion">Q:Who should not give blood ?</h2>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <h2 class="accordion">Q:Is giving blood safe ? </h2>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
         </section>
         <section class="sec7">
             <div class="app">
@@ -156,27 +183,77 @@
                 </div>
             </div>
         </section>
+        
         <section class="sec8">
+            <div class="border"></div>
             <h1 class="h1">
                 OUR PARTNERS
             </h1>
             <div class="partners container">
                 <div>
-                    <img src="/main page images/partners/Groupicons-1.png" alt="">
+                    <img class="si7a" src="/main page images/partners/Groupicons-1.png" alt="">
                 </div>
                 <div >
-                    <img src="/main page images/partners/Groupicons-2.png" alt="">
+                    <img class="si7a" src="/main page images/partners/Groupicons-2.png" alt="">
                 </div>
                 <div>
-                    <img src="/main page images/partners/tadamon 1icons.png" alt="">
+                    <img class="tadamon" src="/main page images/partners/tadamon 1icons.png" alt="">
                 </div>
-                <div class="si7a">
-                    <img src="/main page images/partners/Groupicons.png" alt="">
+                <div >
+                    <img class="si7a" src="/main page images/partners/Groupicons.png" alt="">
                 </div>
                 <div>
-                    <img src="/main page images/partners/Logo_SNRT 1icons.png" alt="">
+                    <img class="si7a" src="/main page images/partners/Logo_SNRT 1icons.png" alt="">
                 </div>
             </div>
         </section>
+        <footer class=" bg mt-5  d-flex gap-4 justify-content-center  cl">
+            <img class="footer-logo" src="/main page images/logo/Group 30logo.svg" alt="" class="logof mt-5   ">
+
+            <p class="footer-text mt-5 ml-3">a reliable platform to connect nearby blood donors with blood seekers.</p>
+            <ul class=" text-start pt-5">
+                <li class=" fs-4">Contact</li>
+                <li>+ (123) 456 7890
+                    </li>
+                <li>Donors@gmail.com</li>
+                <li>169 S Park Dr, Ilford IG39AD.</li>
+                <li class=" "><img  class=" p-lg-2" src="/main page images/social media icons/facebook.svg" alt=""><img class=" p-lg-2"src="/main page images/social media icons/whatsapp.svg" alt=""><img class=" p-lg-2"src="/main page images/social media icons/insta.svg" alt=""></li>
+            </ul>
+            <ul class=" pt-5">
+                <li class="fs-4">MENU</li>
+                <li class="">Home</li>
+                <li>Donors</li>
+                <li>About Us </li>
+                <li>Contact Us</li>
+            </ul>
+        </footer>
+        <!-- scripy responsive navbar -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+}
+        </script>
+           <!-- javascript of section6 (FAQs)  -->
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
     </body>
 </html>
